@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dateutil import parser
 
-AIPIPE_TOKEN = os.getenv("AIPIPE_TOKEN")
+AIPIPE_TOKEN = os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjEwMDAyMTJAZHMuc3R1ZHkuaWl0bS5hYy5pbiIsImlhdCI6MTc4MzU4MDUxNiwiaXNzIjoiaHR0cHM6Ly9haXBpcGUub3JnIiwiYXVkIjoiYWlwaXBlLWFwaSIsImV4cCI6MTc4NDE4NTMxNn0.X_0h1vXbeHFZtXU5IPaT-0IURGSMLA0EogqYAgLoBGs")
 
 API_URL = "https://aipipe.org/openai/v1/chat/completions"
 
